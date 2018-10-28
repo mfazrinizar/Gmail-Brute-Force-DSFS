@@ -19,6 +19,7 @@ print
 print '[1] Start an Attack/Eksekusi'
 print '[2] Exit'
 option = input('Choose/Pilih: >')
+
 if option == 1:
    file_path = raw_input('Your Wordlist Path/Tempat Wordlist Mu :')
 else:
