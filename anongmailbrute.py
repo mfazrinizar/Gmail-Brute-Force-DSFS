@@ -7,7 +7,7 @@ import os
 from os import system
 
 os.system("clear")
-os.system("figlet Gmail Brute Force DSFS")
+os.system("figlet GMAIL BRUTE DSFS")
 print
 print "Creator   : Anon6372098"
 print "You Tube  : https://www.youtube.com/channel/UC6z-i5NX934RvX7BWr3MlJw (D4RK SYST3M F41LUR3 S33K3R)"
@@ -16,11 +16,11 @@ print "Email     : anon6372098@gmail.com"
 print "Team.     : D4RK SYST3M F41LUR3 S33K3R (DSFS)"
 print
 
-print '[1] Start an Attack '
+print '[1] Start an Attack/Eksekusi'
 print '[2] Exit'
 option = input('Choose/Pilih: >')
 if option == 1:
-   file_path = raw_input('Path of the .txt file of your wordlist :')
+   file_path = raw_input('Your Wordlist Path/Tempat Wordlist Mu :')
 else:
    system('clear')
    exit()
