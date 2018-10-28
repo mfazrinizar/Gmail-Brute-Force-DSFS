@@ -13,13 +13,16 @@ print "Creator   : Anon6372098"
 print "You Tube  : https://www.youtube.com/channel/UC6z-i5NX934RvX7BWr3MlJw (D4RK SYST3M F41LUR3 S33K3R)"
 print "Github    : https://github.com/Anon6372098"
 print "Email     : anon6372098@gmail.com"
-print "Team.     : D4RK SYST3M F41LUR3 S33K3R (DSFS)"
+print "Team      : D4RK SYST3M F41LUR3 S33K3R (DSFS)"
+print "Spesial   : *Hari Sumpah Pemuda 28 Oktober 2018*"
 print
+
+os.system("clear")
+os.system("figlet SUMPAH PEMUDA")
 
 print '[1] Start an Attack/Eksekusi'
 print '[2] Exit'
 option = input('Choose/Pilih: >')
-
 if option == 1:
    file_path = raw_input('Your Wordlist Path/Tempat Wordlist Mu :')
 else:
