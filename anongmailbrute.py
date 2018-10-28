@@ -5,7 +5,6 @@ import smtplib
 from os import system
 
 def main():
-os.system("clear")
 os.system("figlet Gmail Brute Force DSFS")
 print
 print "Creator   : Anon6372098"
