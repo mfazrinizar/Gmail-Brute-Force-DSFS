@@ -2,9 +2,12 @@
 '''Creator : Anon6372098'''
 
 import smtplib
+import sys
+import os
 from os import system
 
 def main():
+os.system("clear")
 os.system("figlet Gmail Brute Force DSFS")
 print
 print "Creator   : Anon6372098"
