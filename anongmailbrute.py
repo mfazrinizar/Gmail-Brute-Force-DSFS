@@ -17,9 +17,6 @@ print "Team      : D4RK SYST3M F41LUR3 S33K3R (DSFS)"
 print "Spesial   : *Hari Sumpah Pemuda 28 Oktober 2018*"
 print
 
-os.system("clear")
-os.system("figlet SUMPAH PEMUDA")
-
 print '[1] Start an Attack/Eksekusi'
 print '[2] Exit'
 option = input('Choose/Pilih: >')
