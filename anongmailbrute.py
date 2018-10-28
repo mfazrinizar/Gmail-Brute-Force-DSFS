@@ -6,7 +6,6 @@ import sys
 import os
 from os import system
 
-def main():
 os.system("clear")
 os.system("figlet Gmail Brute Force DSFS")
 print
@@ -16,7 +15,7 @@ print "Github    : https://github.com/Anon6372098"
 print "Email     : anon6372098@gmail.com"
 print "Team.     : D4RK SYST3M F41LUR3 S33K3R (DSFS)"
 print
-main()
+
 print '[1] Start an Attack '
 print '[2] Exit'
 option = input('Choose/Pilih: >')
